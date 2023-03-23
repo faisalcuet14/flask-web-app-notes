@@ -39,10 +39,8 @@
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
-    {% endif %}
     <!-- show success alert on category 'error' -->
-    <!-- {% elif category == 'success' %} -->
-    {% else %}
+    {% elif category == 'success' %}
     <div class="alert alert-success alert-dismissable fade show" role="alert">
       {{ message }}
       <button class="close" type="button" data-dismiss="alert">
